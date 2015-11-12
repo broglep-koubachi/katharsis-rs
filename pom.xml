@@ -23,7 +23,7 @@
         <jersey.version>2.17</jersey.version>
         <json-unit-fluent.version>1.5.3</json-unit-fluent.version>
 
-        <katharsis-core.version>2.0.0-SNAPSHOT</katharsis-core.version>
+        <katharsis-core.version>43e73b8fe2</katharsis-core.version>
     </properties>
 
     <build>
@@ -41,7 +41,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.katharsis</groupId>
+            <groupId>com.github.broglep-koubachi</groupId>
             <artifactId>katharsis-core</artifactId>
             <version>${katharsis-core.version}</version>
         </dependency>
@@ -112,6 +112,10 @@
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
+        </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
     </repositories>
 </project>
