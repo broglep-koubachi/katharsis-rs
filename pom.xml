@@ -23,7 +23,7 @@
         <jersey.version>2.17</jersey.version>
         <json-unit-fluent.version>1.5.3</json-unit-fluent.version>
 
-        <katharsis-core.version>43e73b8fe2</katharsis-core.version>
+        <katharsis-core.version>development-SNAPSHOT</katharsis-core.version>
     </properties>
 
     <build>
